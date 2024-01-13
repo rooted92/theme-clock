@@ -70,6 +70,7 @@ body {
     height: 65px;
     width: 3px;
     transform-origin: bottom;
+    transition: all .5s ease-in;
 }
 
 .needle.hour {
@@ -115,6 +116,7 @@ body {
 }
 
 .date {
+    text-transform: uppercase;
     font-size: 20px;
     font-weight: 300;
     color: #aaa;
@@ -125,8 +127,8 @@ body {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     border-radius: 50%;
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 2.2rem;
+    width: 2.2rem;
     display: inline-flex;
     align-items: center;
     justify-content: center;
